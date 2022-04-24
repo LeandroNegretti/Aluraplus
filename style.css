@@ -1,11 +1,11 @@
-/* root funciona como uma classe, assim estilizando usando variaveis*/
+
 :root{
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal: "inter";
-    --botao-azul-efeito: #3c7ac7;
+    --botao-azul-efeito: #0471f5;
 }
 
 body{
@@ -123,7 +123,6 @@ body{
     font-size: 32px;
     color: var(--branco-principal);
 }
-/*display flex usado para deixar os links na mesma linha um do lado do outro, list-style-type para retirar a estilização automatica*/
 
 .rodape__lista {
     display:flex;
@@ -131,7 +130,7 @@ body{
     list-style-type: none;
     margin-top: 1em;
 }
-/*margin-left usado para separar os links*/
+
 .lista__link a {
     color: var(--branco-principal);
     margin-left: 1em;  
@@ -148,11 +147,11 @@ body{
     text-align: center;
     margin: 5em 3em;
 }
-/* hover usado para quando o mause estiver em cima do link ele ficara azul, o a é do ancora represendado por<a>*/
+
 .lista__link a:hover {
     color: var(--botao-azul);
 }
-/* background altera a cor de fundo do botão, color altera dentro*/
+
 .container__botao:hover {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
