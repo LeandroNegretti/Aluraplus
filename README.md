@@ -1,1 +1,1 @@
-# Aluraplus
+# Aluraplus/projeto do curso
